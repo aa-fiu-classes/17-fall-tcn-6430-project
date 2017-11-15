@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  config.vm.box = "boxcutter/ubuntu1604"
+  config.vm.box = "ubuntu/xenial64"
 
   config.vm.network "forwarded_port", guest: 8181, host: 8181
 
